@@ -1,11 +1,14 @@
+body {
+  background-color: lightblue;
+}
 h1 {
-  color: orange;
-  text-align: center;
+  color: rgb(2, 2, 94);
+  text-align: left;
 }
 p {
-  color: blue;
+  color: black;
 }
 code {
-  color: red;
+  background-color: rgb(212, 249, 232);
+  color: rgba(6, 2, 95, 0.969);
 }
-
