@@ -11,23 +11,39 @@
         [1] This is a <mark>sample static web page</mark>.
       </p>
       <p>
-        [2] Section Demo
+        [2] Section Demo (details element)
         <details>
           <summary>Click here to get the details</summary>
-          Some contents are hidden in this section.<br/>
+          Some contents are hidden in this section.
         </details>
       </p>
       <p>
-        [3] Javascript Demo<br/>
+        [3] Javascript Demo (change contents by click)
+        <br/>
         <code>initial contents</code>
       </p>
       <p>
-        [4] Editable list Demo
+        [4] Editable list Demo (contenteditable attribute)
         <ul contenteditable="true">
           <li>item 1</li>
           <li>item 2</li>
           <li>item 3</li>
         </ul>
+      </p>
+      <p>
+        [5] Meter Demo (meter element)
+        <br/>
+        <label for="usage">disk usage</label>
+        <meter id="usage" value="120" min="0" max="500">current disk usage</meter>
+      </p>
+      <p>
+        [6] Mandatory Input Field Demo (required attribute)
+        <br/>
+        <form action="" method="get">
+          <input type="text" id="username" name="username" placeholder="input your name" required>
+          <input type="submit" value="submit">
+          <input type="reset" value="reset">
+        </form>
       </p>
     </div>
   </body>

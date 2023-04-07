@@ -6,9 +6,22 @@ h1 {
   text-align: left;
 }
 p {
-  color: black;
+  margin-left: 40px;
+}
+details {
+  margin-left: 60px;
 }
 code {
   background-color: rgb(212, 249, 232);
   color: rgba(6, 2, 95, 0.969);
+  margin-left: 20px;
+}
+ul {
+  margin-left: 40px;
+}
+label, meter {
+  margin-left: 20px;
+}
+form {
+  margin-left: 60px;
 }
