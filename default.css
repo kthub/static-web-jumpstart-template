@@ -1,5 +1,5 @@
 body {
-  background-color: lightblue;
+  background-color: rgb(200, 225, 235);
 }
 h1 {
   color: rgb(2, 2, 94);
@@ -7,6 +7,9 @@ h1 {
 }
 p {
   margin-left: 40px;
+}
+.margin {
+  margin-left: 20px;
 }
 details {
   margin-left: 60px;
