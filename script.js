@@ -1,4 +1,4 @@
-// [3] Javascript sample
+// [3] Javascript Demo
 let code = document.getElementsByTagName('code');
 
 let button = document.createElement("button")

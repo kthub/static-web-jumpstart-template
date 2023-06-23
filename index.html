@@ -5,11 +5,17 @@
     <title>Static Web Page Sample</title>
   </head>
   <body>
-    <h1>Static Web Page Sample</h1>
+    <h1 id="sample-title">Static Web Page Sample</h1>
     <div>
       <p>
-        [1] This is a <mark>sample static web page</mark>.<br/>
-        <span class="margin">This page is written only with HTML and CSS and Javascript.</span>
+        [1] Decolation Demo
+        <br/>
+        <span class="margin">
+          This is a <mark>sample static web page</mark>.<br/>
+        </span>
+        <span class="margin">
+          This page is written only with <strong>HTML</strong> and <strong>CSS</strong> and <strong>Javascript</strong>.
+        </span>
       </p>
       <p>
         [2] Section Demo (details element)
@@ -45,6 +51,34 @@
           <input type="submit" value="submit">
           <input type="reset" value="reset">
         </form>
+      </p>
+      <p>
+        [7] Output Demo (output element)
+        <br/>
+        <form oninput="total.value=parseInt(a.value)+parseInt(b.value)">
+          <input type="range" id="a" name="a" value="50"> +
+          <input type="number" id="b" name="b" value="50"> =
+          <output name="total" for="a b">100</output>
+        </form>
+      </p>
+      <p>
+        [8] Progress Demo (progress element)
+        <br/>
+        <label for="file">File progress:</label>
+        <progress id="file" value="69" max="100"></progress>
+      </p>
+      <p>
+        [9] Link in page Demo (using id attribute)
+        <br/>
+        <span class="margin"><a href="#sample-title">Go to title</a></span>
+      </p>
+      <p>
+        [10] Figure Demo (figure and figcaption elements)
+        <br/>
+        <figure>
+          <img src="sample.webp" alt="Sample Image" height="100">
+          <figcaption>This is a caption for the image.</figcaption>
+        </figure>
       </p>
     </div>
   </body>
