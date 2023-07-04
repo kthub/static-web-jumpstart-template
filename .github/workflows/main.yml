@@ -1,0 +1,11 @@
+on:
+  workflow_dispatch:
+
+jobs:
+  my_job:
+    name: sample job
+    runs-on: ubuntu-latest
+    steps:
+    - name: sample step
+      run: echo "hoehoe"
+    
